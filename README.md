@@ -4,8 +4,8 @@
 <h3> Task 1 - TTS and STT using Python and IBM Watson Services </h3>
 <ul>
   <li> Use python language in IBM Watson to convert speech to text & text to speech  </li>
-  <li> Save the output text from (speech to text) as .txt file  </li>
-  <li> Save the output speech from (text to speech) as .mp3 file  </li>
+  <li> Save the output text from (speech to text) as .txt file - <a href="output.txt">output.txt</a> </li>
+  <li> Save the output speech from (text to speech) as .mp3 file - <a href="poemAR.mp3">poemAR.mp3</a> and <a href="Elizabeth1Story.mp3">Elizabeth1Story.mp3</a> </li>
 </ul>
 
 <p> The steps I followed for the live speech to text: <br>
