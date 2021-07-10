@@ -11,7 +11,7 @@
 <p> The steps I followed for the live speech to text: <br>
   
   - Setting up Watson Speech to Text (save the apikey and the region) <br>
-  - Accessing the Streaming Speech to Text code from GitHub (cloning the repo from github) <br>
+  - Accessing the Streaming Speech to Text code from GitHub (cloning the repo <a href= watson-streaming-stt> watson-streaming-stt </a> from github) <br>
   - Installing dependencies (pyaudio) <br>
   - Setting up Configuration (type the apikey and the region in the speech.cfg file) <br>
   - Running Live Speech to Text (run it by this command in the terminal: python transcribe.py -t 10) <br>
