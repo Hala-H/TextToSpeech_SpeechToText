@@ -17,3 +17,6 @@
   - Running Live Speech to Text (run it by this command in the terminal: python transcribe.py -t 10) <br>
   
 </p>
+
+<p> This jupyter notebook has the speech to text steps <a href="Speech to Text.ipynb">Speech to Text.ipynb</a></p>
+<p> This jupyter notebook has the speech to text steps <a href="Text to Speech-checkpoint">Speech to Text.ipynb</a></p>
