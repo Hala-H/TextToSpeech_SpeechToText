@@ -8,6 +8,9 @@
   <li> Save the output speech from (text to speech) as .mp3 file - <a href="poemAR.mp3">poemAR.mp3</a> and <a href="Elizabeth1Story.mp3">Elizabeth1Story.mp3</a> </li>
 </ul>
 
+<p> This jupyter notebook has the speech to text steps <a href="Speech to Text.ipynb">Speech to Text.ipynb</a></p>
+<p> This jupyter notebook has the text to speech steps <a href="Text to Speech-checkpoint">Text to Speech-checkpoint.ipynb</a></p> <br>
+
 <p> The steps I followed for the live speech to text: <br>
   
   - Setting up Watson Speech to Text (save the apikey and the region) <br>
@@ -18,5 +21,13 @@
   
 </p>
 
-<p> This jupyter notebook has the speech to text steps <a href="Speech to Text.ipynb">Speech to Text.ipynb</a></p>
-<p> This jupyter notebook has the text to speech steps <a href="Text to Speech-checkpoint">Text to Speech-checkpoint.ipynb</a></p>
+<p> The steps I followed for the text to speech: <br>
+  
+  - Setting up Watson Text to Speech (save the apikey and the region) <br>
+  - Authenticating  <br>
+  - Converting a file from txt to mp3 <br>
+  - Using a new language <br>
+  
+</p>
+
+
