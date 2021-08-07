@@ -216,6 +216,24 @@ def main():
     # call, so it won't return until the ws.close() gets called (after
     # 6 seconds in the dedicated thread).
     ws.run_forever()
+    
+    response = assistant.message_stateless(
+    assistant_id='be19759a-a480-471c-8187-f1c054749b57',
+    input={
+        'message_type': 'text',
+        'text': smart
+    }
+    ).get_result()
+
+    z = json.dumps(response)
+    y = json.loads(z)
+    respon = json.dumps(y["output"]["generic"][0]["text"]).strip('"')
+
+    with open('./output.mp3', 'wb') as audio_file:
+        res = tts.synthesize(respon, accept='audio/mp3', voice='en-US_AllisonV3Voice').get_result()
+        audio_file.write(res.content)
+    print(respon)
+    playsound('output.mp3')  
 
 
 if __name__ == "__main__":
